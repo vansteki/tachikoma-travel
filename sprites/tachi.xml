@@ -1,0 +1,5 @@
+<TextureAtlas imagePath="sheet.png">
+	<SubTexture name="slice01_stand.png" x="69" y="0" width="46" height="58"/>
+	<SubTexture name="slice02_ready.png" x="0" y="63" width="67" height="62"/>
+	<SubTexture name="slice03_run.png" x="0" y="0" width="67" height="61"/>
+</TextureAtlas>

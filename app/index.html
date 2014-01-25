@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>tachikoma travel</title>
+	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="enchant.min.js"></script>
+	<script src="avatar.enchant.js"></script>
+	<script src="ui.enchant.js"></script>
+	<script src="main.js"></script>
+	<style>
+		body { background-color: silver;}
+		html, body{
+    		margin: 0;
+    		padding: 0;
+		}
+	</style>	
+</head>
+<body>
+<div id="enchant-stage"></div>
+<button id='sound-ctrl'>Sound Off</button>
+<script>
+	$(function(){
+		$('#sound-ctrl').click(function(){
+			console.log($(this).text());
+			soundCtrl($(this).text());
+		})
+	});
+</script>
+</body>
+</html>
